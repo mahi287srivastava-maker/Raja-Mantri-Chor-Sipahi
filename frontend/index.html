@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raja Mantri Chor Sipahi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎭 Raja Mantri Chor Sipahi</h1>
+
+  <input id="name" placeholder="Enter your name" />
+  <input id="roomId" placeholder="Room ID (for join)" />
+
+  <div class="buttons">
+    <button onclick="createRoom()">Create Room</button>
+    <button onclick="joinRoom()">Join Room</button>
+    <button onclick="viewRole()">View My Role</button>
+  </div>
+
+  <div>
+    <input id="guessId" placeholder="Guessed Player ID (Mantri)" />
+    <button onclick="makeGuess()">Submit Guess</button>
+  </div>
+
+  <button onclick="getResult()">View Result</button>
+
+  <pre id="output"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
